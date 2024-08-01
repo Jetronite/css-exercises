@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -12,13 +13,14 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  margin: 5px;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  margin: 15px;
-  padding: 20px;
+  margin: 0px;
+  padding: 0px;
   display: flex;
   flex-wrap: wrap;
   /* justify-content: center; */
